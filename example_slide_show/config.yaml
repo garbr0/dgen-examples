@@ -1,0 +1,22 @@
+---
+document_set:
+    - document:
+        name: index
+        contents: 
+            - intro.md
+            - aboutme.md
+            - outline.md
+            - metadata.yaml
+    - document:
+        name: day1
+        contents: 
+            - topic_xyz.md
+            - metadata.yaml
+    - document:
+        name: day2
+        contents:
+            - topic_abc.md
+            - metadata.yaml
+template: ../dgen-templates/slide-show/template_config.yaml
+
+...

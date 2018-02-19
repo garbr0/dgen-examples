@@ -1,0 +1,13 @@
+document_set:
+  - document:
+      name: report
+      contents: 
+          - 'exec.md'
+          - 'intro.md'
+          - 'finding1.md'
+          - 'finding2.md'
+          - 'appendix.md'
+          - 'docinfo.md'
+          - 'metadata.yaml'
+template: '../dgen-templates/default/template_config.yaml'
+
